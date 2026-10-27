@@ -1,1 +1,41 @@
-{"cleanUrls":true,"trailingSlash":false,"headers":[{"source":"/(.*)","headers":[{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"}]}]}
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/carro-pantalla-millaje-dos-unidades-miami-gardens",
+      "destination": "/carro-velocimetro-odometro-diferencia-kendall",
+      "permanent": true
+    },
+    {
+      "source": "/carro-pantalla-millaje-dos-unidades-miami-gardens.html",
+      "destination": "/carro-velocimetro-odometro-diferencia-kendall",
+      "permanent": true
+    },
+    {
+      "source": "/carro-tablero-millas-parciales-kendall",
+      "destination": "/carro-velocimetro-odometro-diferencia-kendall",
+      "permanent": true
+    },
+    {
+      "source": "/carro-tablero-millas-parciales-kendall.html",
+      "destination": "/carro-velocimetro-odometro-diferencia-kendall",
+      "permanent": true
+    }
+  ]
+}
